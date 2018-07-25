@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size
+        android:width="@dimen/my580dp"
+        android:height="@dimen/my280dp"/>
+    <solid android:color="@color/moudler_btn"/>
+    <corners
+        android:bottomLeftRadius="@dimen/my15dp"
+        android:bottomRightRadius="@dimen/my15dp"/>
+</shape>

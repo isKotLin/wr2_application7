@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/my60dp">
+
+    <RelativeLayout
+        android:id="@+id/times_rl_center"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my200dp"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/my75dp"
+            android:text="@string/param_time"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my50dp" />
+
+        <ImageView
+            android:layout_width="@dimen/my50dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_marginRight="@dimen/my75dp"
+            android:layout_marginTop="@dimen/my10dp"
+            android:src="@mipmap/timer" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/times_rl_head"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my110dp"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+    <wheel.LoopView
+        android:id="@+id/run_wv_time_ten"
+        android:layout_width="@dimen/my110dp"
+        android:layout_height="@dimen/my250dp"
+        android:layout_below="@id/times_rl_head"
+        android:layout_marginLeft="@dimen/my80dp"
+        android:layout_marginTop="@dimen/my24dp" />
+</RelativeLayout>

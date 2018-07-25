@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/time_ll"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/my135dp"
+        android:layout_marginRight="@dimen/my2dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_frame_blue"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/my54dp"
+                android:layout_height="@dimen/my54dp"
+                android:src="@mipmap/timer" />
+
+            <TextView
+                android:id="@+id/sign_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my2dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/my33dp" />
+        </LinearLayout>
+
+        <com.example.view.CustomFontTextView
+            android:id="@+id/window_chr_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="00:00"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my75dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mileage_ll"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/my135dp"
+        android:layout_marginRight="@dimen/my2dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_frame_green"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/my54dp"
+                android:layout_height="@dimen/my54dp"
+                android:src="@mipmap/distance" />
+
+            <TextView
+                android:id="@+id/sign_mileages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my2dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/my33dp" />
+        </LinearLayout>
+
+        <com.example.view.CustomFontTextView
+            android:id="@+id/window_tv_mileage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" 0.00"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my75dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/heat_ll"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/my135dp"
+        android:layout_marginRight="@dimen/my2dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_frame_orange"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/my54dp"
+                android:layout_height="@dimen/my54dp"
+                android:src="@mipmap/fire" />
+
+            <TextView
+                android:id="@+id/sign_heats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my2dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/my33dp" />
+        </LinearLayout>
+
+        <com.example.view.CustomFontTextView
+            android:id="@+id/window_tv_heat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0.0"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my75dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/heart_ll"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/my135dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_frame_pink"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/my54dp"
+                android:layout_height="@dimen/my54dp"
+                android:src="@mipmap/heart_signal" />
+
+            <TextView
+                android:id="@+id/sign_hearts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my2dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/my33dp" />
+        </LinearLayout>
+
+        <com.example.view.CustomFontTextView
+            android:id="@+id/window_tv_heartRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my75dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slopes_ll"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/my135dp"
+        android:layout_marginRight="@dimen/my2dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_frame_purple"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/slpo_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/my54dp"
+                android:layout_height="@dimen/my54dp"
+                android:src="@mipmap/safety" />
+
+            <TextView
+                android:id="@+id/sign_slopess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my2dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/my33dp" />
+        </LinearLayout>
+
+        <com.example.view.CustomFontTextView
+            android:id="@+id/window_tv_gradient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my75dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/speed_ll"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/my135dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:background="@drawable/shape_frame_red"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/my54dp"
+                android:layout_height="@dimen/my54dp"
+                android:src="@mipmap/gaugage" />
+
+            <TextView
+                android:id="@+id/sign_speeds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/my2dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/my33dp" />
+        </LinearLayout>
+
+        <com.example.view.CustomFontTextView
+            android:id="@+id/window_tv_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:text="0.0 "
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my75dp" />
+    </LinearLayout>
+
+    <!--TextView
+        android:id="@+id/window_btn_start"
+        android:layout_width="@dimen/window_tv_round"
+        android:layout_height="@dimen/window_tv_round"
+        android:layout_marginLeft="@dimen/window_margin"
+        android:background="@mipmap/bg_start"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/oper_start"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/window_tv_info"/-->
+</LinearLayout>

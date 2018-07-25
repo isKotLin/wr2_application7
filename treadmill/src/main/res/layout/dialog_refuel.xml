@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my700dp"
+    android:layout_height="@dimen/my500dp"
+    android:background="@drawable/refuel"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/my20dp"
+        android:text="@string/maintenance_tips"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="@dimen/my40dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my1dp"
+        android:layout_marginBottom="@dimen/my20dp"
+        android:layout_marginTop="@dimen/my20dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my15dp"
+        android:text="@string/prompt_refueling"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my15dp"
+        android:layout_marginTop="@dimen/my30dp"
+        android:text="@string/announcements"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/my30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/confirm_refueling"
+            android:layout_width="@dimen/my200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_refuel_btn"
+            android:text="@string/confirm"
+            android:layout_marginRight="@dimen/my300dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my35dp" />
+
+        <Button
+            android:id="@+id/confirm_abolish"
+            android:layout_width="@dimen/my200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_refuel_btn"
+            android:text="@string/cancel"
+            android:layout_marginLeft="@dimen/my300dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my35dp" />
+    </RelativeLayout>
+</LinearLayout>

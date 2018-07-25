@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/lastll">
+
+        <ImageView
+            style="@style/lastiv"
+            android:src="@mipmap/ic_time" />
+
+        <TextView
+            style="@style/lasttv"
+            android:text="@string/running_time" />
+
+        <com.example.view.CustomOTFTextView
+            android:id="@+id/score_tv_time"
+            style="@style/lasttvs" />
+
+        <TextView
+            style="@style/lasttv1"
+            android:text="@string/unit_time" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/lastll">
+
+        <ImageView
+            style="@style/lastiv"
+            android:src="@mipmap/ic_distance" />
+
+        <TextView
+            style="@style/lasttv"
+            android:text="@string/shortcut_map" />
+
+        <com.example.view.CustomOTFTextView
+            android:id="@+id/score_tv_mileage"
+            style="@style/lasttvs" />
+
+        <TextView
+            style="@style/lasttv1"
+            android:text="@string/unit_distance" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/lastll">
+
+        <ImageView
+            style="@style/lastiv"
+            android:src="@mipmap/ic_calorie" />
+
+        <TextView
+            style="@style/lasttv"
+            android:text="@string/Burn_calories" />
+
+        <com.example.view.CustomOTFTextView
+            android:id="@+id/score_tv_heat"
+            style="@style/lasttvs" />
+
+        <TextView
+            style="@style/lasttv1"
+            android:text="@string/unit_calorie" />
+    </RelativeLayout>
+</LinearLayout>

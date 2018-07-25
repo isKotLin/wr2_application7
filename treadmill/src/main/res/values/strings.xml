@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Treadmill</string>
+    <string name="company_name">深圳沃锐科技有限公司</string>
+    <string name="shortcut_run">Intelligent running</string>
+    <string name="shortcut_movie">Media</string>
+    <string name="shortcut_apps">Application</string>
+    <string name="shortcut_settings">Settings</string>
+    <string name="shortcut_scene">Scene</string>
+    <string name="shortcut_photo">Picture</string>
+    <string name="shortcut_video">Local video</string>
+    <string name="shortcut_music">Local music</string>
+    <string name="shortcut_config">Running score</string>
+    <string name="WiFi">WiFi</string>
+    <string name="user">User</string>
+    <string name="user_info">User info</string>
+    <string name="user5">user5</string>
+    <string name="user4">user4</string>
+    <string name="user3">user3</string>
+    <string name="user2">user2</string>
+    <string name="user1">user1</string>
+    <string name="oper_start">start</string>
+    <string name="oper_stop">stop</string>
+    <string name="oper_stoping">stopping</string>
+    <string name="running_time">The total length of running</string>
+    <string name="average_velocity">Average velocity</string>
+    <string name="Mean_heart_rate">Average heart rate</string>
+    <string name="shortcut_manual">Manual mode</string>
+    <string name="shortcut_countdown">Reciprocal mode</string>
+    <string name="shortcut_countdown_time">Time pattern</string>
+    <string name="shortcut_distance">Distance model</string>
+    <string name="strength">Strength</string>
+    <string name="boy">male</string>
+    <string name="girl">female</string>
+    <string name="shortcut_calorie">Calorie model</string>
+    <string name="shortcut_program">Program model</string>
+    <string name="shortcut_fatloss">Custom mode</string>
+    <string name="shortcut_fatloss1">Custom mode1</string>
+    <string name="shortcut_fatloss2">Custom mode2</string>
+    <string name="shortcut_fatloss3">Custom mode3</string>
+    <string name="shortcut_fatloss4">Custom mode4</string>
+    <string name="shortcut_fatloss5">Custom mode5</string>
+    <string name="shortcut_rate">Heart rate model</string>
+    <string name="shortcut_map">Running mileage</string>
+    <string name="param_slope">Slope</string>
+    <string name="param_rate">Heart rate</string>
+    <string name="param_time">Time</string>
+    <string name="param_distance">Distance</string>
+    <string name="param_calorie">Calorie</string>
+    <string name="param_speed">Speed</string>
+    <string name="unit_distance">Km</string>
+    <string name="Kilometers_per_hour">Km/h</string>
+    <string name="hms">Seconds/km</string>
+    <string name="unit_calorie">Kcal</string>
+    <string name="Kcal_per_hour">%</string>
+    <string name="unit_age">Year</string>
+    <string name="unit_time">Minute</string>
+    <string name="Times_per_minute">BPM</string>
+    <string name="shortcut_recover">System information</string>
+    <string name="activity_not_found">"This application is not installed."</string>
+    <string name="format_status_speed">System configuration\nCPU : ARM Cortex-A7\nGPU : Mali400MP2</string>
+    <string name="banben">Edition : </string>
+    <string name="suoyou">深圳市沃锐科技有限公司版权所有</string>
+    <string name="oper_ok">Preservation</string>
+    <string name="signal_strength">Signal intensity</string>
+    <string name="security_level">Security</string>
+    <string name="password">Password</string>
+    <string name="show_password">Display password</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Forget</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Determine</string>
+    <string name="conn_status">Connection state</string>
+    <string name="ip_address">IP address</string>
+    <string name="oper_back">Cancel</string>
+    <string name="Burn_calories">Burn calories</string>
+    <string name="Average_calorie_consumption">Pace</string>
+    <string name="title_activity_map">Personal information</string>
+    <string name="label_manual">Name:</string>
+    <string name="label_marathon">weight kg:</string>
+    <string name="weight">weight:</string>
+    <string name="label_r01">Height cm:</string>
+    <string name="height">Height:</string>
+    <string name="label_r02">Age:</string>
+    <string name="label_r05">Age</string>
+    <string name="label_r03">Model one</string>
+    <string name="label_r04">Mode two</string>
+    <string name="level_beginner">Mode three</string>
+    <string name="level_intermediate">Mode four</string>
+    <string name="level_advanced">Mode five</string>
+    <string name="level_expert">Target heart rate</string>
+    <string name="program_f01">Warm-up</string>
+    <string name="program_f02">Aerobic exercise</string>
+    <string name="program_f03">Reduces the fat movement</string>
+    <string name="program_f04">Health Campaign</string>
+    <string name="program_r01">alpinism</string>
+    <string name="program_r02">Professional sports</string>
+    <string name="label_guide_title">Easy operation manual</string>
+    <string name="label_note">Matters needing attention</string>
+    <string name="label_guide">Operating instructions</string>
+    <string name="conten_note">1.this system strives to ensure the stability and fluency of treadmill running. \n\n2. treadmill should be placed in a ventilated dry place, to prevent water, oil pollution and other liquid contamination. \n\n3. on touch screens: avoid proximity to magnets and horns with magnets. Avoid sharp objects sliding on the touch panel surface to avoid water, grease, and any other conductive liquids or solids. \n\n4. found that if the system is not running smoothly, it may install irregular APK applications, should be regularly managed and cleared of these apk.</string>
+    <string name="conten_guide">5. after the whole machine is powered on, wait for the system to start for about 30 seconds. After the \n\n6. startup is complete, the system enters the main interface. By touching the "smart running", you can enter the smart running interface. \n\n7. has 7 modes for users to select: manual mode, time countdown mode, distance reciprocal mode, calorie countdown mode, program mode, custom mode, and heart rate mode.</string>
+    <string name="lii">\n4. each movement is completed, the movement record can be shared, this should be preloaded with the corresponding apk applications. </string>
+    <string name="label_error_title">Error code query</string>
+    <string name="error_code">Code</string>
+    <string name="error_name">Type</string>
+    <string name="error_handle">Troubleshooting</string>
+    <string name="info_title">Native information</string>
+    <string name="label_info_version1">Device version number 1:</string>
+    <string name="label_info_version2">Device version number 2:</string>
+    <string name="label_info_mileage">Total mileage:</string>
+    <string name="label_config_unit">Unit settings</string>
+    <string name="config_language">Language settings</string>
+    <string name="switchover_language">Language switch</string>
+    <string name="label_unit_inches">Inch</string>
+    <string name="label_unit_metric">Metric</string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    <string name="switch_language">Language</string>
+    <string name="memory_space">Storage space\nTotal memory: 8GB\nSystem takes up memory:</string>
+    <string name="useable_user">GB\nUsers can use memory:</string>
+    <string name="been_used">GB(Has been used:</string>
+    <string name="remaining_GB">GB, Surplus:</string>
+    <string name="remaining_MB">MB, Surplus:</string>
+    <string name="GB">GB)</string>
+    <string-array name="error_names">
+        <item>Communication error(System)</item>
+        <item>Motor not connected</item>
+        <item>Speed-sensor no signal</item>
+        <item>Lifting-Motor is calibrating</item>
+        <item>Over current protection</item>
+        <item>Driver or Motor error</item>
+        <item>Safety-key fall</item>
+        <item>Under voltage protection</item>
+        <item>Over voltage protection</item>
+        <item>Communication error(Controller)</item>
+        <item>Communication error(APP-System)</item>
+        <item>Hall sensor no signal</item>
+        <item>Controller inner communication error</item>
+        <item>Over heated</item>
+        <item>Internal voltage check error</item>
+        <item>Severe over current</item>
+        <item>Communication error</item>
+    </string-array>
+    <string-array name="error_msgs">
+        <item>Please check and confirm the connect of Console and Driver, if these connect wires were damaged please replace these wires.</item>
+        <item>Check Motor Wires connected the Driver.</item>
+        <item>Check Speed-Sensor is installed correctly, if the Speed-Sensor is damaged, replace it.</item>
+        <item>This error will disappear calibration.</item>
+        <item>If Belt is too tight,or the Belt need add.</item>
+        <item>Driver is damaged or not, if damaged replace. If odor of Motor is strange,replace the Motor.</item>
+        <item>Put the Safety-Key onto the right area</item>
+        <item>Please connect Console wires tightly</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please check and confirm the connect of Console and Driver.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item></item>
+    </string-array>
+    <string-array name="error_name">
+        <item>Communication error(System)</item>
+        <item>E02\nExplosion protection protect</item>
+        <item>Speed-sensor no signal</item>
+        <item>E04\nSlopes learning failed</item>
+        <item>E05\nOvercurrent protection</item>
+        <item>Driver or Motor error</item>
+        <item>E08\nSafety lock</item>
+        <item>E09\nUnder voltage protection</item>
+        <item>Over voltage protection</item>
+        <item>E01\nThe electronic watch is out of communication with the controller</item>
+        <item>Communication error(APP-System)</item>
+        <item>Hall sensor no signal</item>
+        <item>Controller inner communication error</item>
+        <item>Over heated</item>
+        <item>Internal voltage check error</item>
+        <item>Severe over current</item>
+        <item>Communication error</item>
+    </string-array>
+    <string-array name="error_msgss">
+        <item>Please check and confirm the connect of Console and Driver, if these connect wires were damaged please replace these wires.</item>
+        <item>1.Motor open or out of contact, replace motor or check connection terminal.\n2.Power tube breakdown, replace power tube or controller.</item>
+        <item>Check Speed-Sensor is installed correctly, if the Speed-Sensor is damaged, replace it.</item>
+        <item>1.Replace slopes motors.</item>
+        <item>1.load Overweight.\n2.Treadmill resistance is too large, need oiling. \n3.Motor damaged, replaced.</item>
+        <item>Driver is damaged or not, if damaged replace. If odor of Motor is strange,replace the Motor.</item>
+        <item>1.Please connect the safety lock.</item>
+        <item>Please connect Console wires tightly</item>
+        <item>Please contact with the Vendor.</item>
+        <item>1.Check whether the connecting line of the meter and controller is in bad contact.\n2.The main IC of the controller is out of contact and re inserted.\n3.Controller power exception,Change controller. </item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item>Please contact with the Vendor.</item>
+        <item></item>
+    </string-array>
+    <string-array name="error_msg">
+        <item>Error one</item>
+        <item>Error two</item>
+        <item>Error three</item>
+        <item>Error four</item>
+        <item>Error five</item>
+        <item>Error six</item>
+        <item>Error seven</item>
+        <item>Error eight</item>
+        <item>Error nine</item>
+        <item>Error ten</item>
+        <item>Error eleven</item>
+        <item>Error twelve</item>
+        <item>Error thirteen</item>
+        <item>Error fourteen</item>
+        <item>Error fifteen</item>
+        <item>Error sixteen</item>
+    </string-array>
+    <string name="target_uninstall_label">Delete</string>
+    <string name="time">Time</string>
+    <string name="mileage">Distance</string>
+    <string name="heat">Quantity of heat</string>
+    <string name="preinstall">Preset program</string>
+    <string name="custom">Custom</string>
+    <string name="scene_one">Scene 1</string>
+    <string name="scene_two">Scene 2</string>
+    <string name="scene_three">Scene 3</string>
+    <string name="scene_four">Seaside</string>
+    <string name="scene_five">Night running</string>
+    <string name="scene_six">Ring Road</string>
+    <string name="scene_seven">Refueling race</string>
+    <string name="file">File</string>
+    <string name="android_setting">Android settings</string>
+    <string name="operation_guide">Operating instructions</string>
+    <string name="system_info">System information</string>
+    <string name="skin">Background</string>
+    <string name="language">Language</string>
+    <string name="up">Prompt tone</string>
+    <string name="off">Cue tone</string>
+    <string name="lnch">Inch</string>
+    <string name="metric">Metric</string>
+    <string name="bmi">BMI Lipid measurement</string>
+    <string name="reference">Reference: Lean = 18 normal 18.1-25 overweight 25.1-28 obesity is more than 28.1</string>
+    <string name="best">Best score</string>
+    <string name="date">Date:</string>
+    <string name="times">Time:</string>
+    <string name="mileages">Distance:</string>
+    <string name="heats">Calorie</string>
+    <string name="history">Historical record</string>
+    <string name="heart">Heart rate</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <string name="four">four</string>
+    <string name="five">five</string>
+    <string name="six">six</string>
+    <string name="error_names0">Communication error(System)</string>
+    <string name="error_names1">Motor not connected</string>
+    <string name="error_names2">Speed-sensor no signal</string>
+    <string name="error_names3">Lifting-Motor is calibrating</string>
+    <string name="error_names4">Over current protection</string>
+    <string name="error_names5">Driver or Motor error</string>
+    <string name="error_names6">Safety-key fall</string>
+    <string name="error_names7">Under voltage protection</string>
+    <string name="error_names8">Over voltage protection</string>
+    <string name="error_names9">Communication error(Controller)</string>
+    <string name="error_names10">Communication error(APP-System)</string>
+    <string name="error_names11">Hall sensor no signal</string>
+    <string name="error_names12">Controller inner communication error</string>
+    <string name="error_names13">Over heated</string>
+    <string name="error_names14">Internal voltage check error</string>
+    <string name="error_names15">Severe over current</string>
+    <string name="error_msgs0">Please check and confirm the connect of Console and Driver, if these connect wires were damaged please replace these wires.</string>
+    <string name="error_msgs1">Check Motor Wires connected the Driver.</string>
+    <string name="error_msgs2">Check Speed-Sensor is installed correctly, if the Speed-Sensor is damaged, replace it.</string>
+    <string name="error_msgs3">This error will disappear calibration.</string>
+    <string name="error_msgs4">If Belt is too tight,or the Belt need add.</string>
+    <string name="error_msgs5">Driver is damaged or not, if damaged replace. If odor of Motor is strange,replace the Motor.</string>
+    <string name="error_msgs6">Put the Safety-Key onto the right area</string>
+    <string name="error_msgs7">Please connect Console wires tightly.</string>
+    <string name="error_msgs8">Please contact with the Vendor.</string>
+    <string name="error_msgs9">Please check and confirm the connect of Console and Driver.</string>
+    <string name="error_msgs10">Please contact with the Vendor.</string>
+    <string name="error_msgs11">Please contact with the Vendor.</string>
+    <string name="error_msgs12">Please contact with the Vendor.</string>
+    <string name="error_msgs13">Please contact with the Vendor.</string>
+    <string name="error_msgs14">Please contact with the Vendor.</string>
+    <string name="error_msgs15">Please contact with the Vendor.</string>
+    <string name="error_msg0">E01</string>
+    <string name="error_msg1">E02</string>
+    <string name="error_msg2">E03</string>
+    <string name="error_msg3">E04</string>
+    <string name="error_msg4">E05</string>
+    <string name="error_msg5">E06</string>
+    <string name="error_msg6">E07</string>
+    <string name="error_msg7">E08</string>
+    <string name="error_msg8">E09</string>
+    <string name="error_msg9">E10</string>
+    <string name="error_msg10">E11</string>
+    <string name="error_msg11">E12</string>
+    <string name="error_msg12">E13</string>
+    <string name="error_msg13">E14</string>
+    <string name="error_msg14">E15</string>
+    <string name="error_msg15">E16</string>
+    <string name="clear">One button cleanup</string>
+    <string name="recover">One key restore</string>
+    <string name="isrecover">Restore system?</string>
+    <string name="prompt_refueling">In order to improve the life of your treadmill, please refuel in time!!!</string>
+    <string name="announcements">Note: \n each refueling amount of 10ML\n, if you have refueling, according to confirm \n press cancel, then the next boot to continue to remind</string>
+    <string name="deleting_data">In data deletion, please wait a moment</string>
+    <string name="run_stop">Please stop running and use this function again</string>
+    <string name="longest">The longest name is five words</string>
+    <string name="not_exceed">Not exceed</string>
+    <string name="home_page">Maininterface</string>
+    <string name="no_install">This application is not installed</string>
+    <string name="stoping">Stopping...</string>
+    <string name="no_exist">File does not exist</string>
+    <string name="run_record">Running record</string>
+    <string name="isnull">VideoView is null</string>
+    <string name="stop_error">Stop making mistakes</string>
+    <string name="play_error">Play error</string>
+    <string name="engineering_mode">Engineering model</string>
+    <string name="order_number">Serial number</string>
+    <string name="number">Number</string>
+    <string name="replace_oil">The replacement of oil</string>
+    <string name="replaced">Replaced</string>
+    <string name="replace_nxet">Next change</string>
+    <string name="maintenance_tips">Maintenance Tips</string>
+    <string name="oiling">Refueling</string>
+    <string name="residue_degree">Remaining times:</string>
+    <string name="compile">edit</string>
+    <string name="exit">Sign out</string>
+    <string name="data_load">Data loading</string>
+    <array name="spinner">
+        <item>nothing</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+    </array>
+    <array name="error_qi">
+        <item>The electronic watch is out of communication with the controller</item>
+        <item>Explosion protection protect</item>
+        <item>Speed sensing failure</item>
+        <item>Slopes learning failed</item>
+        <item>Overcurrent protection</item>
+        <item>Controller boot error</item>
+        <item>Parameter missing</item>
+        <item>Safety lock</item>
+        <item>Under voltage protection</item>
+    </array>
+    <array name="error_per_qi">
+        <item>1.Check whether the connecting line of the meter and controller is in bad contact.\n2.The main IC of the controller is out of contact and re inserted.\n3.Controller power exception,Change controller. </item>
+        <item>1.Motor open or out of contact, replace motor or check connection terminal.\n2.Power tube breakdown, replace power tube or controller.</item>
+        <item>1.The speed sensor is damaged and replaced.\n2.The speed sensor is not OK. Readjust the position.</item>
+        <item>1.Replace slopes motors.</item>
+        <item>1.load Overweight.\n2.Treadmill resistance is too large, need oiling. \n3.Motor damaged, replaced.</item>
+        <item>1.Change controller. </item>
+        <item>1.Replace controller or transfer parameter.</item>
+        <item>1.Please connect the safety lock.</item>
+        <item>1.The external voltage of the treadmill is too low to be used after the external voltage has returned to normal.</item>
+    </array>
+</resources>

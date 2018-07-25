@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/lastll">
+
+        <ImageView
+            style="@style/lastiv"
+            android:src="@mipmap/hearts" />
+
+        <TextView
+            style="@style/lasttv"
+            android:text="@string/Mean_heart_rate" />
+
+        <com.example.view.CustomOTFTextView
+            android:id="@+id/avg_tv_heart"
+            style="@style/lasttvs" />
+
+        <TextView
+            style="@style/lasttv1"
+            android:text="@string/Times_per_minute" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/lastll">
+
+        <ImageView
+            style="@style/lastiv"
+            android:src="@mipmap/avgspeed" />
+
+        <TextView
+            style="@style/lasttv"
+            android:text="@string/average_velocity" />
+
+        <com.example.view.CustomOTFTextView
+            android:id="@+id/avg_tv_velocity"
+            style="@style/lasttvs" />
+
+        <TextView
+            style="@style/lasttv1"
+            android:text="@string/Kilometers_per_hour" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/lastll">
+
+        <ImageView
+            style="@style/lastiv"
+            android:src="@mipmap/pace" />
+
+        <TextView
+            style="@style/lasttv"
+            android:text="@string/Average_calorie_consumption" />
+
+        <com.example.view.CustomOTFTextView
+            android:id="@+id/avg_tv_slopes"
+            style="@style/lasttvs" />
+
+        <TextView
+            style="@style/lasttv1"
+            android:text="@string/hms" />
+    </RelativeLayout>
+</LinearLayout>

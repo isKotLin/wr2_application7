@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my200dp"
+    android:layout_height="@dimen/my200dp">
+
+    <RelativeLayout
+        android:id="@+id/navigation_rl_bar"
+        android:layout_width="@dimen/my200dp"
+        android:layout_height="@dimen/my200dp"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/ba"
+        android:gravity="center"
+        android:visibility="gone">
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@mipmap/ba"/>-->
+        <ImageView
+            android:id="@+id/iv_sign"
+            android:layout_width="@dimen/my50dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/bt"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/left_top"
+            android:layout_width="@dimen/my100dp"
+            android:layout_height="@dimen/my100dp"
+            android:src="@mipmap/left_top"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/left_bottom"
+            android:layout_width="@dimen/my100dp"
+            android:layout_height="@dimen/my100dp"
+            android:layout_below="@id/left_top"
+            android:src="@mipmap/left_bottom"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/right_top"
+            android:layout_width="@dimen/my100dp"
+            android:layout_height="@dimen/my100dp"
+            android:layout_toRightOf="@id/left_top"
+            android:src="@mipmap/right_top"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/right_bottom"
+            android:layout_width="@dimen/my100dp"
+            android:layout_height="@dimen/my100dp"
+            android:layout_below="@id/left_top"
+            android:layout_toRightOf="@id/left_top"
+            android:src="@mipmap/right_bottom"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="@dimen/my50dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_above="@id/iv_sign"
+            android:layout_toRightOf="@id/iv_sign"
+            android:paddingRight="@dimen/my10dp"
+            android:paddingTop="@dimen/my10dp"
+            android:src="@mipmap/arrow_back" />
+
+        <ImageView
+            android:id="@+id/volume_iv_plus"
+            android:layout_width="@dimen/my50dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_below="@id/iv_sign"
+            android:layout_toRightOf="@id/iv_sign"
+            android:paddingBottom="@dimen/my10dp"
+            android:paddingRight="@dimen/my10dp"
+            android:src="@mipmap/volon" />
+
+        <ImageView
+            android:id="@+id/home_iv"
+            android:layout_width="@dimen/my50dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_above="@id/iv_sign"
+            android:layout_toLeftOf="@id/iv_sign"
+            android:paddingLeft="@dimen/my10dp"
+            android:paddingTop="@dimen/my10dp"
+            android:src="@mipmap/house" />
+
+        <ImageView
+            android:id="@+id/volume_iv_down"
+            android:layout_width="@dimen/my50dp"
+            android:layout_height="@dimen/my50dp"
+            android:layout_below="@id/iv_sign"
+            android:layout_toLeftOf="@id/iv_sign"
+            android:paddingBottom="@dimen/my10dp"
+            android:paddingLeft="@dimen/my10dp"
+            android:src="@mipmap/voldown" />
+    </RelativeLayout>
+</RelativeLayout>

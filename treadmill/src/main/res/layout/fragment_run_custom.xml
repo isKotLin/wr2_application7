@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my1200dp"
+    android:layout_height="@dimen/my550dp"
+    android:layout_gravity="center"
+    android:background="#c03b0254"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/custom_tv_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/my20dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+
+        <ImageView
+            android:id="@+id/left_iv"
+            android:layout_width="@dimen/my35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/my150dp"
+            android:src="@mipmap/left_arrow" />
+
+        <ImageView
+            android:id="@+id/right_iv"
+            android:layout_width="@dimen/my35dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/my150dp"
+            android:src="@mipmap/right_arrow" />
+    </RelativeLayout>
+    <!--RadioGroup
+        android:id="@+id/custom_rg_list"
+        android:layout_width="@dimen/fragment_run_custom"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/custom_rb_user1"
+            android:background="@drawable/selector_custom_user1"
+            android:text="@string/label_r03"
+            style="@style/customs"/>
+
+        <RadioButton
+            android:id="@+id/custom_rb_user2"
+            android:background="@drawable/selector_custom_user2"
+            android:text="@string/label_r04"
+            style="@style/customs"/>
+
+        <RadioButton
+            android:id="@+id/custom_rb_user3"
+            android:background="@drawable/selector_custom_user1"
+            android:text="@string/level_beginner"
+            style="@style/customs"/>
+
+        <RadioButton
+            android:id="@+id/custom_rb_user4"
+            android:background="@drawable/selector_custom_user2"
+            android:text="@string/level_intermediate"
+            style="@style/customs"/>
+
+        <RadioButton
+            android:id="@+id/custom_rb_user5"
+            android:background="@drawable/selector_custom_user1"
+            android:text="@string/level_advanced"
+           style="@style/customs"/>
+    </RadioGroup-->
+    <FrameLayout
+        android:id="@+id/custom_fl_choose"
+        android:layout_width="@dimen/my1200dp"
+        android:layout_height="@dimen/my410dp"/>
+</LinearLayout>

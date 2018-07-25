@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my1200dp"
+    android:layout_height="@dimen/my550dp"
+    android:layout_gravity="center"
+    android:alpha="0.8"
+    android:background="@mipmap/custo"
+    android:orientation="horizontal">
+
+    <include layout="@layout/sumessbly_time" />
+
+    <include layout="@layout/sumessbly_mileag" />
+
+    <include layout="@layout/fragment_run_heat" />
+
+    <LinearLayout
+        android:id="@+id/down_ll_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/my50dp"
+        android:orientation="vertical"
+        android:padding="@dimen/my10dp">
+
+        <ImageView
+            android:id="@+id/down_iv_start"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oper_start"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </LinearLayout>
+</LinearLayout>

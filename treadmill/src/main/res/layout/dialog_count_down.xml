@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ready_iv_three"
+        android:layout_width="@dimen/my1037dp"
+        android:layout_height="@dimen/my401dp"
+        android:src="@mipmap/img_countdown_1" />
+
+    <ImageView
+        android:id="@+id/ready_iv_two"
+        android:layout_width="@dimen/my249dp"
+        android:layout_height="@dimen/my401dp"
+        android:layout_marginLeft="@dimen/my263dp"
+        android:src="@mipmap/img_countdown_2"/>
+
+    <ImageView
+        android:id="@+id/ready_iv_one"
+        android:layout_width="@dimen/my249dp"
+        android:layout_height="@dimen/my401dp"
+        android:layout_marginLeft="@dimen/my525dp"
+        android:src="@mipmap/img_countdown_3" />
+
+    <ImageView
+        android:id="@+id/ready_iv_go"
+        android:layout_width="@dimen/my249dp"
+        android:layout_height="@dimen/my401dp"
+        android:layout_marginLeft="@dimen/my788dp"
+        android:src="@mipmap/img_countdown_4" />
+</RelativeLayout>

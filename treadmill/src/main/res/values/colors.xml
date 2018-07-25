@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="translucence">#800D121A</color>
+
+    <color name="popup_title_color">#ffc9cdd1</color>
+    <color name="advance_setting_item_bg">#fff8f8f8</color>
+    <color name="light_blue">#33b5e5</color>
+    <!--<color name="transparents">#0000000</color>-->
+
+    <color name="textdec">#f18c14</color>
+
+    <color name="tran_gray">#80999999</color>
+
+    <color name="media_green_frame">#21A407</color>
+    <color name="cao_green">#05f589</color>
+    <color name="apps_green">#59B937</color>
+    <color name="apps_orange">#EF955A</color>
+    <color name="apps_blue">#218FE4</color>
+
+    <color name="tran_black">#80000000</color>
+    <color name="tran_red">#80ff0000</color>
+
+    <color name="user_character">#FF000000</color>
+
+    <color name="sex_text">#ff0000</color>
+    <color name="sex_text_no">#9d9a9a</color>
+
+    <color name="start">#ccb504</color>
+    <color name="end">#f18408</color>
+
+    <color name="run_selector">#317cef</color>
+
+    <color name="heart_frame">#DA152F</color>
+
+    <color name="speed_btn">#BC0B0B</color>
+
+    <color name="slopes_frame">#7e57c2</color>
+
+    <color name="run_account1">#777777</color>
+    <color name="run_account2">#989898</color>
+
+    <color name="strength_first">#AAAAAA</color>
+    <color name="strength_second">#999999</color>
+    <color name="strength_third">#888888</color>
+    <color name="strength_fourth">#777777</color>
+    <color name="strength_fifth">#666666</color>
+    <color name="strength_sixth">#555555</color>
+
+    <color name="custom_save">#D5651B</color>
+    <color name="custom_save_true">#80D5651B</color>
+
+    <color name="moudler_btn">#0A80DA</color>
+
+    <color name="transparentss">#5fff</color>
+
+    <color name="share_frame">#1C4F8C</color>
+    <color name="share_dis">#4A8AC1</color>
+    <color name="tran">#00dddddd</color>
+    <color name="back">#ff310c1d</color>
+    <color name="yellowss">#ffffff00</color>
+    <color name="user_info">#68686868</color>
+    <color name="running">#da2b0c</color>
+
+    <color name="bluess">#d00099cc</color>
+    <color name="greenss">#d0669900</color>
+    <color name="orage">#d0ff8800</color>
+    <color name="pukpul">#d0aa66cc</color>
+    <color name="redss">#d0cc0000</color>
+    <color name="pinkss">#d0E82D6A</color>
+    <color name="whitess">#80ffffff</color>
+</resources>

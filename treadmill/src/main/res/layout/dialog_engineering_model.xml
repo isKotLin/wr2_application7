@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my600dp"
+    android:layout_height="@dimen/my300dp"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/engineering_tv_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/my20dp"
+        android:text="@string/engineering_mode"
+        android:textSize="@dimen/my50dp" />
+
+    <TextView
+        android:id="@+id/dialog_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/engineering_tv_model"
+        android:layout_toLeftOf="@id/engineering_tv_model"
+        android:text="@string/order_number"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my40dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my1dp"
+        android:layout_above="@id/dialog_tv_name"
+        android:layout_marginBottom="@dimen/my10dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/dialog_tv_values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/engineering_tv_model"
+        android:layout_toRightOf="@id/engineering_tv_model"
+        android:text="@string/number"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my40dp" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/dialog_tv_name"
+        android:layout_below="@id/dialog_tv_name"
+        android:layout_marginTop="@dimen/my20dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my40dp" />
+
+    <TextView
+        android:id="@+id/values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/dialog_tv_values"
+        android:layout_below="@id/dialog_tv_name"
+        android:layout_marginTop="@dimen/my20dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my40dp" />
+</RelativeLayout>

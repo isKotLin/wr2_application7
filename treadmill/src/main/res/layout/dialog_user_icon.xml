@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_login"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.example.view.MyLinearLayout
+            android:id="@+id/dialog_ll_user1"
+            style="@style/user_name_ll"
+            android:background="#007cc6">
+
+            <ImageView
+                style="@style/user_icon"
+                android:layout_marginRight="@dimen/my5dp"
+                android:src="@mipmap/avatar1" />
+
+            <TextView
+                android:id="@+id/dialog_tv_userName1"
+                style="@style/user_name_tv_show" />
+        </com.example.view.MyLinearLayout>
+
+        <com.example.view.MyLinearLayout
+            android:id="@+id/dialog_ll_user2"
+            style="@style/user_name_ll"
+            android:background="#5d3bac">
+
+            <ImageView
+                style="@style/user_icon"
+                android:src="@mipmap/avatar2" />
+
+            <TextView
+                android:id="@+id/dialog_tv_userName2"
+                style="@style/user_name_tv_show" />
+        </com.example.view.MyLinearLayout>
+
+        <com.example.view.MyLinearLayout
+            android:id="@+id/dialog_ll_user3"
+            style="@style/user_name_ll"
+            android:background="#d0562d">
+
+            <ImageView
+                style="@style/user_icon"
+                android:src="@mipmap/avatar3" />
+
+            <TextView
+                android:id="@+id/dialog_tv_userName3"
+                style="@style/user_name_tv_show" />
+        </com.example.view.MyLinearLayout>
+
+        <com.example.view.MyLinearLayout
+            android:id="@+id/dialog_ll_user4"
+            style="@style/user_name_ll"
+            android:background="#008c00">
+
+            <ImageView
+                style="@style/user_icon"
+                android:src="@mipmap/avatar4" />
+
+            <TextView
+                android:id="@+id/dialog_tv_userName4"
+                style="@style/user_name_tv_show" />
+        </com.example.view.MyLinearLayout>
+
+        <com.example.view.MyLinearLayout
+            android:id="@+id/dialog_ll_user5"
+            style="@style/user_name_ll"
+            android:background="#180153">
+
+            <ImageView
+                style="@style/user_icon"
+                android:src="@mipmap/avatar5" />
+
+            <TextView
+                android:id="@+id/dialog_tv_userName5"
+                style="@style/user_name_tv_show" />
+        </com.example.view.MyLinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/first_btn"
+        android:layout_width="@dimen/my150dp"
+        android:layout_height="@dimen/my150dp"
+        android:background="@color/tran" />
+
+    <Button
+        android:id="@+id/second_btn"
+        android:layout_width="@dimen/my150dp"
+        android:layout_height="@dimen/my150dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/tran" />
+
+    <Button
+        android:id="@+id/fourth_btn"
+        android:layout_width="@dimen/my150dp"
+        android:layout_height="@dimen/my150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tran" />
+
+    <Button
+        android:id="@+id/third_btn"
+        android:layout_width="@dimen/my150dp"
+        android:layout_height="@dimen/my150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/tran" />
+</RelativeLayout>

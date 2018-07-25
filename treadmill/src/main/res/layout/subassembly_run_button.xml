@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/run_ll_list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="@dimen/my30dp"
+              android:gravity="center_horizontal|bottom"
+              android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/run_rg_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/run_rb_time"
+            style="@style/rb_per"
+            android:background="@drawable/selector_run_btn_frame"
+            android:text="@string/time"/>
+
+        <RadioButton
+            android:id="@+id/run_rb_mileage"
+            style="@style/rb_per"
+            android:background="@drawable/selector_run_btn_frame"
+            android:text="@string/mileage"/>
+
+        <RadioButton
+            android:id="@+id/run_rb_heat"
+            style="@style/rb_per"
+            android:background="@drawable/selector_run_btn_frame"
+            android:text="@string/heat"/>
+
+        <RadioButton
+            android:id="@+id/run_rb_preset_program"
+            style="@style/rb_per"
+            android:background="@drawable/selector_run_btn_frame"
+            android:text="@string/preinstall"/>
+
+        <RadioButton
+            android:id="@+id/run_rb_customized"
+            style="@style/rb_per"
+            android:background="@drawable/selector_run_btn_frame"
+            android:text="@string/custom"/>
+
+        <RadioButton
+            android:id="@+id/run_rb_heart"
+            style="@style/rb_per"
+            android:background="@drawable/selector_run_btn_frame"
+            android:text="@string/shortcut_rate"/>
+    </RadioGroup>
+
+    <!--Button
+        android:id="@+id/run_btn_start"
+        android:layout_width="@dimen/fragment_heat_wight"
+        android:layout_height="@dimen/fragment_heat_wight"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:background="@mipmap/bg_start"
+        android:text="@string/oper_start"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/window_tv_info"-->
+</LinearLayout>

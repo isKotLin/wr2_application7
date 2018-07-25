@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/my1200dp"
+                android:layout_height="@dimen/my550dp"
+                android:layout_gravity="center"
+                android:background="#dc024c5c">
+
+    <TextView
+        android:id="@+id/age_tv_sign"
+        style="@style/custom1"
+        android:text="@string/label_r05"/>
+
+    <wheel.LoopView
+        android:id="@+id/run_wv_heart_ten"
+        style="@style/custom1_wv"
+        android:layout_below="@id/age_tv_sign"/>
+
+    <TextView
+        android:id="@+id/heat_tv_signs"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my110dp"
+        android:layout_marginLeft="@dimen/my95dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my40dp"
+        android:layout_toRightOf="@id/age_tv_sign"
+        android:text="@string/level_expert"/>
+
+    <wheel.LoopView
+        android:id="@+id/run_wv_heart"
+        style="@style/custom1_wv"
+        android:layout_below="@id/heat_tv_signs"
+        android:layout_toRightOf="@id/age_tv_sign"/>
+
+    <TextView
+        android:id="@+id/heat_tv_time"
+        android:text="@string/param_time"
+        android:layout_toRightOf="@id/heat_tv_signs"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my110dp"
+        android:layout_marginLeft="@dimen/my100dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my40dp"/>
+
+    <wheel.LoopView
+        android:id="@+id/run_wv_time"
+        android:layout_width="@dimen/my200dp"
+        android:layout_height="@dimen/my400dp"
+        android:layout_below="@id/heat_tv_time"
+        android:layout_marginLeft="@dimen/my140dp"
+        android:layout_marginTop="@dimen/my24dp"
+        android:layout_toRightOf="@id/heat_tv_signs"/>
+
+    <LinearLayout
+        android:id="@+id/heart_ll_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/my50dp"
+        android:padding="@dimen/my10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/heart_iv_start"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oper_start"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp"/>
+    </LinearLayout>
+</RelativeLayout>

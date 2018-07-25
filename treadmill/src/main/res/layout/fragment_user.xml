@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--include layout="@layout/subassembly_user1" /-->
+
+    <FrameLayout
+        android:id="@+id/user_fl_contain"
+        android:layout_width="@dimen/my1200dp"
+        android:layout_height="@dimen/my550dp"
+        android:layout_marginLeft="@dimen/my75dp" />
+</LinearLayout>

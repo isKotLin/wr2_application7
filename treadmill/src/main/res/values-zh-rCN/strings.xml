@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Treadmill</string>
+    <string name="company_name">深圳沃锐科技有限公司</string>
+    <string name="shortcut_run">智能跑步</string>
+    <string name="shortcut_movie">多媒体</string>
+    <string name="shortcut_apps">应用</string>
+    <string name="shortcut_settings">设置</string>
+    <string name="shortcut_scene">实景</string>
+    <string name="shortcut_photo">图片</string>
+    <string name="shortcut_video">本地视频</string>
+    <string name="shortcut_music">本地音乐</string>
+    <string name="shortcut_config">跑步成绩</string>
+    <string name="next_update">下次更新</string>
+    <string name="affaim_updata">确认更新</string>
+    <string name="version_update">版 本 更 新</string>
+    <string name="WiFi">WiFi</string>
+    <string name="user">用户</string>
+    <string name="user_info">用户信息</string>
+    <string name="user5">用户五</string>
+    <string name="user4">用户四</string>
+    <string name="user3">用户三</string>
+    <string name="user2">用户二</string>
+    <string name="user1">用户一</string>
+    <string name="oper_start">开始</string>
+    <string name="oper_stop">停止</string>
+    <string name="oper_stoping">停止中</string>
+    <string name="running_time">跑步总时长</string>
+    <string name="average_velocity">平均速度</string>
+    <string name="Mean_heart_rate">平均心率</string>
+    <string name="shortcut_manual">手动模式</string>
+    <string name="shortcut_countdown">倒数模式</string>
+    <string name="shortcut_countdown_time">时间模式</string>
+    <string name="shortcut_distance">距离模式</string>
+    <string name="strength">强度</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+    <string name="shortcut_calorie">卡路里模式</string>
+    <string name="shortcut_program">程序模式</string>
+    <string name="shortcut_fatloss">自定义模式</string>
+    <string name="shortcut_fatloss1">自定义模式一</string>
+    <string name="shortcut_fatloss2">自定义模式二</string>
+    <string name="shortcut_fatloss3">自定义模式三</string>
+    <string name="shortcut_fatloss4">自定义模式四</string>
+    <string name="shortcut_fatloss5">自定义模式五</string>
+    <string name="shortcut_rate">心率模式</string>
+    <string name="shortcut_map">跑步总里程</string>
+    <string name="param_slope">坡度</string>
+    <string name="param_rate">心率</string>
+    <string name="param_time">时间</string>
+    <string name="param_distance">距离</string>
+    <string name="param_calorie">卡路里</string>
+    <string name="param_speed">速度</string>
+    <string name="unit_distance">千米</string>
+    <string name="Kilometers_per_hour">千米/小时</string>
+    <string name="hms">分秒/公里</string>
+    <string name="unit_calorie">千卡</string>
+    <string name="Kcal_per_hour">%</string>
+    <string name="unit_age">岁</string>
+    <string name="unit_time">分钟</string>
+    <string name="Times_per_minute">BPM</string>
+    <string name="shortcut_recover">系统信息</string>
+    <string name="activity_not_found">"未安装该应用。"</string>
+    <string name="format_status_speed">系统配置 \nCPU : ARM Cortex-A7\nGPU : Mali400MP2</string>
+    <string name="banben">版本 : </string>
+    <string name="suoyou">深圳市沃锐科技有限公司版权所有</string>
+    <string name="oper_ok">保存</string>
+    <string name="signal_strength">信号强度</string>
+    <string name="security_level">安全性</string>
+    <string name="password">密码</string>
+    <string name="show_password">显示密码</string>
+    <string name="connect">连接</string>
+    <string name="disconnect">忘记</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="conn_status">连接状态</string>
+    <string name="ip_address">IP地址</string>
+    <string name="oper_back">取消</string>
+    <string name="Burn_calories">消耗卡路里</string>
+    <string name="Average_calorie_consumption">配速</string>
+    <string name="title_activity_map">个人信息</string>
+    <string name="label_manual">姓名:</string>
+    <string name="label_marathon">体重kg:</string>
+    <string name="weight">体重:</string>
+    <string name="label_r01">身高cm:</string>
+    <string name="height">身高:</string>
+    <string name="label_r02">年龄:</string>
+    <string name="label_r05">年龄</string>
+    <string name="label_r03">模式一</string>
+    <string name="label_r04">模式二</string>
+    <string name="level_beginner">模式三</string>
+    <string name="level_intermediate">模式四</string>
+    <string name="level_advanced">模式五</string>
+    <string name="level_expert">目标心率</string>
+    <string name="program_f01">热身运动</string>
+    <string name="program_f02">有氧运动</string>
+    <string name="program_f03">减脂运动</string>
+    <string name="program_f04">保健运动</string>
+    <string name="program_r01">爬山运动</string>
+    <string name="program_r02">专业运动</string>
+    <string name="label_guide_title">简易操作手册</string>
+    <string name="label_note">注意事项</string>
+    <string name="label_guide">操作指南</string>
+    <string name="conten_note">1.本系统力求确保跑步机运行的稳定性和流畅性。\n\n2.跑步机应尽量放置在通风干燥的地方，严防水，油污和其他液体沾染。\n\n3.关于触摸屏：避免靠近磁铁以及含有磁铁的喇叭等，免尖锐的物体在触摸屏表面滑动，避免水，油污和其他任何导电的液体或者固体靠近。\n\n4.如发现系统运行不流畅，可能安装了不正规的apk应用，应定期对这些apk进行管理和清除。</string>
+    <string name="conten_guide">5.整机上电后等待系统启动，约30秒。\n\n6.启动完成后系统进入主界面，通过触摸“智能跑步”，可以进入智能跑步界面。\n\n7.有7种模式供用户选择：手动模式、时间倒数模式、距离倒数模式、卡路里倒数模式、程序模式、自定义模式和心率模式。</string>
+    <string name="lii">\n4、每次运动完成后，运动记录可以分享，这个要预装相应的apk应用。</string>
+    <string name="label_error_title">错误代码查询</string>
+    <string name="error_code">代码</string>
+    <string name="error_name">类型</string>
+    <string name="error_handle">故障处理</string>
+    <string name="info_title">本机信息</string>
+    <string name="label_info_version1">设备版本号1:</string>
+    <string name="label_info_version2">设备版本号2:</string>
+    <string name="label_info_mileage">总里程:</string>
+    <string name="label_config_unit">单位设置</string>
+    <string name="config_language">语言设置</string>
+    <string name="switchover_language">语言切换</string>
+    <string name="label_unit_inches">英制</string>
+    <string name="label_unit_metric">公制</string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    <string name="memory_space">存储空间\n总内存: 8GB\n系统占用内存:</string>
+    <string name="useable_user">GB\n用户可使用内存:</string>
+    <string name="been_used">GB(已用:</string>
+    <string name="remaining_GB">GB, 剩余:</string>
+    <string name="remaining_MB">MB, 剩余:</string>
+    <string name="GB">GB)</string>
+    <string-array name="error_names">
+        <item>电子表与控制器通讯,电子表接收错误</item>
+        <item>马达线断或者脱落</item>
+        <item>光感不良</item>
+        <item>扬升错误</item>
+        <item>马达被卡死,下控过流保护</item>
+        <item>马达不良或IGBT不良</item>
+        <item>安全锁脱落</item>
+        <item>欠压保护</item>
+        <item>过压保护</item>
+        <item>跑步机与控制器通讯，控制器接收错误</item>
+        <item>彩屏与跑步机通讯错误</item>
+        <item>霍尔传感错误</item>
+        <item>控制器内部通讯错误</item>
+        <item>过热</item>
+        <item>内部电压自检错误</item>
+        <item>严重过流</item>
+        <item>通讯错误</item>
+    </string-array>
+    <string-array name="error_msgs">
+        <item>请检查电子表到下控通讯线的每一段连接处,保证每根芯完全插好。检查电子表与控制器的连接线是否破损,更换连接线。</item>
+        <item>请检查马达线在控制器上的端子连接是否牢固</item>
+        <item>请检查速度传感器是否装好,或者损坏,更换即可。</item>
+        <item>学习完成可自行清除</item>
+        <item>请检查跑带是否过紧,或者跑带需要打油</item>
+        <item>请检查控制器是否损坏,更换控制器。检查马达是否有异味,更换马达</item>
+        <item>请将安全锁放到感应区</item>
+        <item>请检查电子表内部连接线是否松动,重新接好。</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item></item>
+    </string-array>
+    <string-array name="error_name">
+        <item>电子表与控制器通讯,电子表接收错误</item>
+        <item>E02\n防爆冲保护</item>
+        <item>光感不良</item>
+        <item>E04\n扬升学习失败</item>
+        <item>E05\n过流保护</item>
+        <item>马达不良或IGBT不良</item>
+        <item>E08\n安全锁</item>
+        <item>E09\n欠压保护</item>
+        <item>过压保护</item>
+        <item>E01\n电子表与控制器通讯不良</item>
+        <item>彩屏与跑步机通讯错误</item>
+        <item>霍尔传感错误</item>
+        <item>控制器内部通讯错误</item>
+        <item>过热</item>
+        <item>内部电压自检错误</item>
+        <item>严重过流</item>
+        <item>通讯错误</item>
+    </string-array>
+    <string-array name="error_msgss">
+        <item>请检查电子表到下控通讯线的每一段连接处,保证每根芯完全插好。检查电子表与控制器的连接线是否破损,更换连接线。</item>
+        <item>1.马达开路或接触不良，更换马达或检查连接端子。\n2.功率管击穿，更换功率管或控制器。</item>
+        <item>请检查速度传感器是否装好,或者损坏,更换即可。</item>
+        <item>1.更换扬升电机。</item>
+        <item>1.负载过重。\n2.跑台阻力过大，需打油。\n3.马达损坏，更换。</item>
+        <item>请检查控制器是否损坏,更换控制器。检查马达是否有异味,更换马达</item>
+        <item>1.请连接上安全锁。</item>
+        <item>请检查电子表内部连接线是否松动,重新接好。</item>
+        <item>请联系经销商</item>
+        <item>1.检查电子表与控制器的连接线是否接触不良。\n2.控制器主IC接触不良，重新插紧。\n3.控制器电源异常，更换控制器。</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item>请联系经销商</item>
+        <item></item>
+    </string-array>
+    <string-array name="error_msg">
+        <item>错误一</item>
+        <item>错误二</item>
+        <item>错误三</item>
+        <item>错误四</item>
+        <item>错误五</item>
+        <item>错误六</item>
+        <item>错误七</item>
+        <item>错误八</item>
+        <item>错误九</item>
+        <item>错误十</item>
+        <item>错误十一</item>
+        <item>错误十二</item>
+        <item>错误十三</item>
+        <item>错误十四</item>
+        <item>错误十五</item>
+        <item>错误十六</item>
+    </string-array>
+    <string name="target_uninstall_label">删除</string>
+    <string name="time">时间</string>
+    <string name="mileage">里程</string>
+    <string name="heat">热量</string>
+    <string name="preinstall">预设程式</string>
+    <string name="custom">自定义</string>
+    <string name="scene_one">场景一</string>
+    <string name="scene_two">场景二</string>
+    <string name="scene_three">场景三</string>
+    <string name="scene_four">海滨</string>
+    <string name="scene_five">夜跑</string>
+    <string name="scene_six">环市公路</string>
+    <string name="scene_seven">加油赛</string>
+    <string name="file">文件</string>
+    <string name="android_setting">安卓设置</string>
+    <string name="operation_guide">操作指南</string>
+    <string name="system_info">系统信息</string>
+    <string name="skin">背景</string>
+    <string name="language">语言</string>
+    <string name="up">提示音开</string>
+    <string name="off">提示音关</string>
+    <string name="lnch">英制</string>
+    <string name="metric">公制</string>
+    <string name="bmi">BMI测脂</string>
+    <string name="reference">参考:偏瘦≤18 正常18.1-25 偏胖25.1-28 肥胖≥28.1</string>
+    <string name="best">最好的成绩</string>
+    <string name="date">日期:</string>
+    <string name="times">时间:</string>
+    <string name="mileages">里程:</string>
+    <string name="heats">热量:</string>
+    <string name="history">历史记录</string>
+    <string name="heart">心率</string>
+    <string name="one">一</string>
+    <string name="two">二</string>
+    <string name="three">三</string>
+    <string name="four">四</string>
+    <string name="five">五</string>
+    <string name="six">六</string>
+    <string name="error_names0">电子表与控制器通讯,电子表接收错误</string>
+    <string name="error_names1">马达线断或者脱落</string>
+    <string name="error_names2">光感不良</string>
+    <string name="error_names3">扬升错误</string>
+    <string name="error_names4">马达被卡死,下控过流保护</string>
+    <string name="error_names5">马达不良或IGBT不良</string>
+    <string name="error_names6">安全锁脱落</string>
+    <string name="error_names7">欠压保护</string>
+    <string name="error_names8">过压保护</string>
+    <string name="error_names9">跑步机与控制器通讯，控制器接收错误</string>
+    <string name="error_names10">彩屏与跑步机通讯错误</string>
+    <string name="error_names11">霍尔传感错误</string>
+    <string name="error_names12">控制器内部通讯错误</string>
+    <string name="error_names13">过热</string>
+    <string name="error_names14">内部电压自检错误</string>
+    <string name="error_names15">严重过流</string>
+    <string name="error_msgs0">请检查电子表到下控通讯线的每一段连接处,保证每根芯完全插好。检查电子表与控制器的连接线是否破损,更换连接线</string>
+    <string name="error_msgs1">请检查马达线在控制器上的端子连接是否牢固</string>
+    <string name="error_msgs2">请检查速度传感器是否装好,或者损坏,更换即可</string>
+    <string name="error_msgs3">学习完成可自行清除</string>
+    <string name="error_msgs4">请检查跑带是否过紧,或者跑带需要打油</string>
+    <string name="error_msgs5">请检查控制器是否损坏,更换控制器。检查马达是否有异味,更换马达</string>
+    <string name="error_msgs6">请将安全锁放到感应区</string>
+    <string name="error_msgs7">请检查电子表内部连接线是否松动,重新接好</string>
+    <string name="error_msgs8">请联系经销商</string>
+    <string name="error_msgs9">请联系经销商</string>
+    <string name="error_msgs10">请联系经销商</string>
+    <string name="error_msgs11">请联系经销商</string>
+    <string name="error_msgs12">请联系经销商</string>
+    <string name="error_msgs13">请联系经销商</string>
+    <string name="error_msgs14">请联系经销商</string>
+    <string name="error_msgs15">请联系经销商</string>
+    <string name="error_msg0">E01</string>
+    <string name="error_msg1">E02</string>
+    <string name="error_msg2">E03</string>
+    <string name="error_msg3">E04</string>
+    <string name="error_msg4">E05</string>
+    <string name="error_msg5">E06</string>
+    <string name="error_msg6">E07</string>
+    <string name="error_msg7">E08</string>
+    <string name="error_msg8">E09</string>
+    <string name="error_msg9">E10</string>
+    <string name="error_msg10">E11</string>
+    <string name="error_msg11">E12</string>
+    <string name="error_msg12">E13</string>
+    <string name="error_msg13">E14</string>
+    <string name="error_msg14">E15</string>
+    <string name="error_msg15">E16</string>
+    <string name="clear">一键清理</string>
+    <string name="recover">一键还原</string>
+    <string name="isrecover">是否还原系统</string>
+    <string name="prompt_refueling">为了提高您的跑步机使用寿命,请及时加油!!!</string>
+    <string name="announcements">注意事项：\n每次加油量为10ML\n如果已加油按确认\n按取消则下次开机继续提醒</string>
+    <string name="deleting_data">数据删除中，请稍后</string>
+    <string name="run_stop">请停止跑步，再使用该功能</string>
+    <string name="longest">名字最长五个字</string>
+    <string name="not_exceed">不能超过</string>
+    <string name="home_page">主界面</string>
+    <string name="no_install">没有安装该应用程序</string>
+    <string name="stoping">停止中...</string>
+    <string name="no_exist">文件不存在</string>
+    <string name="run_record">跑步记录</string>
+    <string name="isnull">videoView为null</string>
+    <string name="stop_error">停止出错了</string>
+    <string name="play_error">播放错误</string>
+    <string name="engineering_mode">工程模式</string>
+    <string name="order_number">序号</string>
+    <string name="number">数字</string>
+    <string name="replace_oil">更 换 油 瓶</string>
+    <string name="replaced">已更换</string>
+    <string name="replace_nxet">下次更换</string>
+    <string name="maintenance_tips">保 养 提 示</string>
+    <string name="oiling">正 在 加 油</string>
+    <string name="residue_degree">剩余次数:</string>
+    <string name="compile">编辑</string>
+    <string name="exit">退出</string>
+    <string name="data_load">数据加载中</string>
+    <string name="languages">语言</string>
+    <array name="spinner">
+        <item>无</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+    </array>
+    <array name="error_qi">
+        <item>电子表与控制器通讯不良</item>
+        <item>防爆冲保护</item>
+        <item>速度感应失败</item>
+        <item>扬升学习失败</item>
+        <item>过流保护</item>
+        <item>控制器开机自检错误</item>
+        <item>参数丢失</item>
+        <item>安全锁</item>
+        <item>欠压保护</item>
+    </array>
+    <array name="error_per_qi">
+        <item>1.检查电子表与控制器的连接线是否接触不良。\n2.控制器主IC接触不良，重新插紧。\n3.控制器电源异常，更换控制器。</item>
+        <item>1.马达开路或接触不良，更换马达或检查连接端子。\n2.功率管击穿，更换功率管或控制器。</item>
+        <item>1.速度感应器损坏，更换。\n2.速度感应器未好，重新调整位置。</item>
+        <item>1.更换扬升电机。</item>
+        <item>1.负载过重。\n2.跑台阻力过大，需打油。\n3.马达损坏，更换。</item>
+        <item>1.更换控制器。</item>
+        <item>1.更换控制器或重输参数。</item>
+        <item>1.请连接上安全锁。</item>
+        <item>1.跑步机外部电压过低，等外部电压恢复正常后使用。</item>
+    </array>
+</resources>

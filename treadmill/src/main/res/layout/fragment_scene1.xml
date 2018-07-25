@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/scene_ll_first"
+        android:layout_width="@dimen/my250dp"
+        android:layout_height="@dimen/my350dp"
+        android:background="@mipmap/video_02"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/selector_scene_tv"
+            android:gravity="center"
+            android:paddingBottom="@dimen/my10dp"
+            android:paddingTop="@dimen/my10dp"
+            android:text="@string/scene_one"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/scene_ll_second"
+        android:layout_width="@dimen/my250dp"
+        android:layout_height="@dimen/my350dp"
+        android:layout_margin="@dimen/my30dp"
+        android:background="@mipmap/video_01"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/selector_scene_tv"
+            android:gravity="center"
+            android:paddingBottom="@dimen/my10dp"
+            android:paddingTop="@dimen/my10dp"
+            android:text="@string/scene_two"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/scene_ll_third"
+        android:layout_width="@dimen/my250dp"
+        android:layout_height="@dimen/my350dp"
+        android:background="@mipmap/video_03"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/selector_scene_tv"
+            android:gravity="center"
+            android:paddingBottom="@dimen/my10dp"
+            android:paddingTop="@dimen/my10dp"
+            android:text="@string/scene_three"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/media_ll_music"
+        android:layout_width="@dimen/my300dp"
+        android:layout_height="@dimen/my300dp"
+        android:layout_marginTop="@dimen/my100dp"
+        android:background="@mipmap/musicb"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_music" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my10dp"
+            android:text="@string/shortcut_music"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my40dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/media_ll_video"
+        android:layout_width="@dimen/my300dp"
+        android:layout_height="@dimen/my300dp"
+        android:layout_marginLeft="@dimen/my30dp"
+        android:layout_marginTop="@dimen/my100dp"
+        android:background="@mipmap/videob"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--android:background="@drawable/shape_green_frame"-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_video" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my10dp"
+            android:text="@string/shortcut_video"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my40dp" />
+    </com.example.view.MyLinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/media_ll_image"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/shape_green_frame"-->
+    <!--android:gravity="center"-->
+    <!--android:clickable="true"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="100px"-->
+    <!--android:layout_height="100px"-->
+    <!--android:src="@mipmap/ic_image"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:text="@string/shortcut_photo"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="20sp"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

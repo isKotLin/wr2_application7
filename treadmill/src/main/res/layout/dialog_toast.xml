@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my400dp"
+    android:layout_height="@dimen/my200dp"
+    android:background="@drawable/refuel"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/my20dp"
+        android:text="@string/oiling"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="@dimen/my40dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my1dp"
+        android:layout_marginBottom="@dimen/my20dp"
+        android:layout_marginTop="@dimen/my20dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rebkr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/residue_degree"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my35dp" />
+
+        <TextView
+            android:id="@+id/times"
+            android:layout_width="@dimen/my200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rebkr"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my35dp" />
+    </RelativeLayout>
+</LinearLayout>

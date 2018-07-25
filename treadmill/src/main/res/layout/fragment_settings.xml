@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/my50dp">
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/setting_ll_wifi"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_marginBottom="@dimen/my10dp"
+        android:background="#02029b"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my10dp"
+            android:src="@mipmap/wifi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/WiFi"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my22dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/setting_ll_opera"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_marginLeft="@dimen/my10dp"
+        android:layout_toRightOf="@id/setting_ll_wifi"
+        android:background="#196c19"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="@dimen/my120dp"
+            android:layout_height="@dimen/my120dp"
+            android:layout_marginBottom="@dimen/my10dp"
+            android:src="@mipmap/ic_book" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/operation_guide"
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/my22dp"
+            android:layout_weight="0.39" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/setting_ll_recover"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_marginLeft="@dimen/my10dp"
+        android:layout_toRightOf="@id/setting_ll_opera"
+        android:background="#e7c127"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/my120dp"
+            android:layout_height="@dimen/my120dp"
+            android:layout_marginBottom="@dimen/my10dp"
+            android:src="@mipmap/recover" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recover"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my22dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/setting_ll_skin"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_alignLeft="@id/setting_ll_wifi"
+        android:layout_below="@id/setting_ll_wifi"
+        android:background="#2d74a9"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my10dp"
+            android:src="@mipmap/ic_skin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skin"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my22dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/setting_ll_tone"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_below="@id/setting_ll_wifi"
+        android:layout_marginLeft="@dimen/my10dp"
+        android:layout_toRightOf="@id/setting_ll_skin"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/setting_iv_tone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my10dp" />
+
+        <TextView
+            android:id="@+id/setting_tv_tone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my22dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/setting_ll_clear"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_below="@id/setting_ll_wifi"
+        android:layout_marginLeft="@dimen/my10dp"
+        android:layout_toRightOf="@id/setting_ll_tone"
+        android:background="#5B63F4"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/my10dp"
+            android:src="@mipmap/clear" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my22dp" />
+    </com.example.view.MyLinearLayout>
+    <com.example.view.MyLinearLayout
+        android:id="@+id/setting_ll_language"
+        android:layout_width="@dimen/my250dp"
+        android:layout_height="@dimen/my450dp"
+       android:layout_toRightOf="@id/setting_ll_recover"
+        android:background="#02029b"
+        android:layout_marginLeft="@dimen/my10dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my30dp"
+            android:src="@mipmap/wifi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/WiFi"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my25dp" />
+    </com.example.view.MyLinearLayout>
+</RelativeLayout>

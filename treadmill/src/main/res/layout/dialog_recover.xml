@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my400dp"
+    android:layout_height="@dimen/my200dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/my20dp"
+        android:text="@string/isrecover"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/my30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my2dp"
+        android:background="@color/apps_blue"
+        android:layout_marginTop="@dimen/my20dp"
+        android:layout_marginBottom="@dimen/my20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ce"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/my100dp"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my28dp" />
+
+        <Button
+            android:id="@+id/que"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/my100dp"
+            android:layout_weight="1"
+            android:text="@string/confirm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my28dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="@dimen/my700dp"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pre_tv_sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/my40dp"
+        android:text="@string/activity_not_found"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my40dp"/>
+
+    <com.example.view.PreinstallColumnarView
+        android:id="@+id/speed_pcv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/my50dp"
+        android:layout_marginBottom="@dimen/my75dp"/>
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="@dimen/custom_tv_time"-->
+    <!--android:text="@string/param_speed"-->
+    <!--android:textColor="@android:color/holo_blue_dark"-->
+    <!--android:textSize="@dimen/window_tv_info_show" />-->
+
+    <!--<View-->
+    <!--android:layout_width="2dp"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_marginLeft="7dp"-->
+    <!--android:background="@android:color/white" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="7dp"-->
+    <!--android:text="@string/param_slope"-->
+    <!--android:textColor="@android:color/holo_red_dark"-->
+    <!--android:textSize="@dimen/window_tv_info_show" />-->
+    <!--</LinearLayout>-->
+</LinearLayout>

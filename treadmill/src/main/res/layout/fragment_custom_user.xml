@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_rl_user"
+    android:layout_width="@dimen/my1200dp"
+    android:layout_height="@dimen/my410dp">
+
+    <LinearLayout
+        android:id="@+id/custom_ll_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/my140dp"
+        android:layout_marginLeft="@dimen/my75dp"
+        android:clickable="true"
+        android:layout_marginRight="@dimen/my35dp"
+        android:padding="@dimen/my10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/custom_iv_start"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oper_start"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/custom_ll_sign"
+        android:layout_width="@dimen/my140dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/custom_ll_start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/speed_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/my7dp"
+            android:text="@string/param_time"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+
+        <wheel.LoopView
+            android:id="@+id/wv_ten"
+            android:layout_width="@dimen/my140dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/my30dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/my20dp" />
+
+    <RadioGroup
+        android:id="@+id/selector_rg_ascend"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my50dp"
+        android:layout_toLeftOf="@id/custom_ll_sign"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/selector_rb_sped"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_custom_user1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/param_speed"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+
+        <RadioButton
+            android:id="@+id/selector_rb_slop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_custom_user2"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/param_slope"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my1dp"
+        android:layout_alignRight="@id/custom_ll_sign"
+        android:layout_below="@id/selector_rg_ascend"
+        android:background="@android:color/white" />
+
+    <com.example.view.HistoggramView
+        android:id="@+id/custom_hv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/my260dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/line"
+        android:layout_marginRight="@dimen/my16dp"
+        android:layout_marginTop="@dimen/my50dp"
+        android:layout_toLeftOf="@id/custom_ll_sign" />
+</RelativeLayout>

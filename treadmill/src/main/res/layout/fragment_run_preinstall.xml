@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/my1200dp"
+    android:layout_height="@dimen/my540dp"
+    android:layout_gravity="center"
+    android:background="#dc099e0e">
+
+    <LinearLayout
+        android:id="@+id/pre_ll_start"
+        android:layout_width="@dimen/my80dp"
+        android:layout_height="@dimen/my170dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/my50dp"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pre_iv_start"
+            android:layout_width="@dimen/my60dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oper_start"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/my105dp"
+        android:layout_marginTop="@dimen/my40dp"
+        android:layout_toLeftOf="@id/pre_ll_start"
+        android:text="@string/param_time"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my40dp" />
+
+    <View
+        android:layout_width="@dimen/my930dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/time_sign"
+        android:layout_marginLeft="@dimen/my86dp"
+        android:background="@android:color/white" />
+
+    <wheel.LoopView
+        android:id="@+id/pre_wv_ten"
+        android:layout_width="@dimen/my140dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/time_sign"
+        android:layout_marginRight="@dimen/my75dp"
+        android:layout_marginTop="@dimen/my20dp"
+        android:layout_toLeftOf="@id/pre_ll_start" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pre_vp"
+        android:layout_width="@dimen/my720dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/my50dp"
+        android:layout_toLeftOf="@id/pre_wv_ten" />
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/llPointGroup"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="@dimen/my30dp"-->
+        <!--android:layout_marginLeft="@dimen/my400dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/first"-->
+            <!--android:layout_width="@dimen/my10dp"-->
+            <!--android:layout_height="@dimen/my10dp"-->
+            <!--android:src="@mipmap/point2" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/pointGARY"-->
+            <!--android:layout_width="@dimen/my10dp"-->
+            <!--android:layout_height="@dimen/my10dp"-->
+            <!--android:src="@mipmap/point1" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/second"-->
+            <!--android:layout_width="@dimen/my10dp"-->
+            <!--android:layout_height="@dimen/my10dp"-->
+            <!--android:layout_marginLeft="@dimen/my10dp"-->
+            <!--android:layout_toRightOf="@id/first"-->
+            <!--android:src="@mipmap/point2" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/third"-->
+            <!--android:layout_width="@dimen/my10dp"-->
+            <!--android:layout_height="@dimen/my10dp"-->
+            <!--android:layout_marginLeft="@dimen/my10dp"-->
+            <!--android:layout_toRightOf="@id/second"-->
+            <!--android:src="@mipmap/point2" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/fourth"-->
+            <!--android:layout_width="@dimen/my10dp"-->
+            <!--android:layout_height="@dimen/my10dp"-->
+            <!--android:layout_marginLeft="@dimen/my10dp"-->
+            <!--android:layout_toRightOf="@id/third"-->
+            <!--android:src="@mipmap/point2" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/fifth"-->
+            <!--android:layout_width="@dimen/my10dp"-->
+            <!--android:layout_height="@dimen/my10dp"-->
+            <!--android:layout_marginLeft="@dimen/my10dp"-->
+            <!--android:layout_toRightOf="@id/fourth"-->
+            <!--android:src="@mipmap/point2" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/sixth"-->
+            <!--android:layout_width="@dimen/my10dp"-->
+            <!--android:layout_height="@dimen/my10dp"-->
+            <!--android:layout_marginLeft="@dimen/my10dp"-->
+            <!--android:layout_toRightOf="@id/fifth"-->
+            <!--android:src="@mipmap/point2" />-->
+    <!--</RelativeLayout>-->
+</RelativeLayout>

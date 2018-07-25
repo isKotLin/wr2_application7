@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/custdown_ll_model"
+        android:layout_width="@dimen/my450dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/my10dp"
+        android:layout_marginTop="@dimen/my50dp"
+        android:background="#693dce"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my20dp"
+            android:src="@mipmap/hour_glass" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_countdown"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/manual_ll_mode"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my450dp"
+        android:layout_marginRight="@dimen/my10dp"
+        android:layout_marginTop="@dimen/my50dp"
+        android:layout_toLeftOf="@id/custdown_ll_model"
+        android:background="#e47208"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my20dp"
+            android:src="@mipmap/tap_96px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_manual"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/pre_ll_tall"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my450dp"
+        android:layout_marginLeft="@dimen/my10dp"
+        android:layout_marginTop="@dimen/my50dp"
+        android:layout_toRightOf="@id/custdown_ll_model"
+        android:background="#08c209"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/my94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my20dp"
+            android:src="@mipmap/bar_chart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_program"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/custom_ll"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_alignLeft="@id/custdown_ll_model"
+        android:layout_below="@id/custdown_ll_model"
+        android:background="#8205b9"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/my94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my20dp"
+            android:src="@mipmap/equalizer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_fatloss"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/my30dp" />
+    </com.example.view.MyLinearLayout>
+
+    <com.example.view.MyLinearLayout
+        android:id="@+id/heart_ll_rate"
+        android:layout_width="@dimen/my220dp"
+        android:layout_height="@dimen/my220dp"
+        android:layout_alignRight="@id/custdown_ll_model"
+        android:layout_below="@id/custdown_ll_model"
+        android:background="#0994b3"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/setting_iv_tone"
+            android:layout_width="@dimen/my120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/my20dp"
+            android:src="@mipmap/heart" />
+
+        <TextView
+            android:id="@+id/setting_tv_tone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_rate"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="@dimen/my3dp"
+            android:textSize="@dimen/my30dp" />
+    </com.example.view.MyLinearLayout>
+</RelativeLayout>

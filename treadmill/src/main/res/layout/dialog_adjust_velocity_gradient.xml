@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hint="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/my860dp"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/ldkd">
+    <TextView
+        android:id="@+id/sp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my50dp"
+        android:layout_marginTop="@dimen/my60dp"
+        android:text="速度"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my36dp" />
+
+    <ImageView
+        android:id="@+id/sp_iv_jian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/sp_tv"
+        android:layout_below="@id/sp_tv"
+        android:layout_marginTop="@dimen/my30dp"
+        android:src="@mipmap/jian" />
+
+    <com.example.view.SeekBarHint
+        android:id="@+id/seekbar"
+        android:layout_width="@dimen/my500dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my30dp"
+        android:layout_marginRight="@dimen/my30dp"
+        android:layout_marginTop="@dimen/my145dp"
+        android:layout_toRightOf="@id/sp_iv_jian"
+        android:maxHeight="@dimen/my10dp"
+        android:minHeight="@dimen/my10dp"
+        android:progressDrawable="@drawable/po_seekbar"
+        android:thumb="@mipmap/round"
+        hint:popupStyle="fixed"
+        hint:popupWidth="@dimen/my90dp"
+        hint:yOffset="@dimen/my65dp" />
+
+    <ImageView
+        android:id="@+id/sp_iv_jia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/sp_iv_jian"
+        android:layout_toRightOf="@id/seekbar"
+        android:src="@mipmap/jia" />
+
+    <TextView
+        android:id="@+id/sl_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/my50dp"
+        android:layout_marginTop="@dimen/my250dp"
+        android:text="坡度"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/my36dp" />
+
+    <ImageView
+        android:id="@+id/sl_iv_jian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/sl_tv"
+        android:layout_below="@id/sl_tv"
+        android:layout_marginTop="@dimen/my30dp"
+        android:src="@mipmap/jian" />
+
+    <com.example.view.SeekBarHint
+        android:id="@+id/sl_seekbar"
+        android:layout_width="@dimen/my500dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sl_iv_jian"
+        android:layout_marginTop="@dimen/my335dp"
+        android:layout_marginLeft="@dimen/my30dp"
+        android:layout_marginRight="@dimen/my30dp"
+        android:maxHeight="@dimen/my10dp"
+        android:minHeight="@dimen/my10dp"
+        android:progressDrawable="@drawable/po_seekbar"
+        android:thumb="@mipmap/round"
+        hint:popupStyle="fixed"
+        hint:popupWidth="@dimen/my90dp"
+        hint:yOffset="@dimen/mydp" />
+
+    <ImageView
+        android:id="@+id/sl_iv_jia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sl_seekbar"
+        android:layout_alignTop="@id/sl_iv_jian"
+        android:src="@mipmap/jia" />
+    <ImageView
+        android:id="@+id/clear_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/clears" />
+</RelativeLayout>
